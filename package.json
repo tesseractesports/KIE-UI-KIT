@@ -1,8 +1,8 @@
 {
   "name": "kie-ui-kit",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
