@@ -2,6 +2,7 @@
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     import CardSlider from "./CardSlider.svelte";
     import Devider from '../Devider.svelte';
+    import RESTClient from '../../Utils/RESTClient';
     import { onMount } from "svelte";
 
     let tournamentType = "upcoming"; // Type of tournament
@@ -21,8 +22,8 @@
         getTournaments();
     });
     const getTournaments = async () => {
-        // const rest = new RESTClient("tournament");
-        // tournaments = await rest.get('/futuretournaments');
+        const rest = new RESTClient("tournament");
+        tournaments = await rest.get('/futuretournaments');
     }
 
     const splideOptions = {
