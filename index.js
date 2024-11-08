@@ -5,8 +5,6 @@ export {default as Leaderboard} from './src/components/TournamentTemplate/Pages/
 export {default as OverView} from './src/components/TournamentTemplate/Pages/ActiveTournaments/OverView.svelte';
 export {default as Support} from './src/components/TournamentTemplate/Pages/ActiveTournaments/Support.svelte';
 export {default as Videos} from './src/components/TournamentTemplate/Pages/ActiveTournaments/Videos.svelte';
-export {default as Header} from './src/components/TournamentTemplate/Components/Header.svelte';
-export {default as Footer} from './src/components/TournamentTemplate/Components/Footer.svelte';
 export {default as ComingSoonBanner} from './src/components/TournamentTemplate/Components/ComingsoonBanner.svelte';
 export {default as Devider} from './src/components/TournamentTemplate/Components/Devider.svelte';
 export {default as Format} from './src/components/TournamentTemplate/Components/Format.svelte';
