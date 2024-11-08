@@ -1,5 +1,8 @@
+<script>
+	import BannerSection from './TournamentTemplate/Components/Sliders/BannerSection.svelte';
 
+</script>
 <div>
-    test component 
+    <BannerSection />
     <slot></slot>
 </div>
