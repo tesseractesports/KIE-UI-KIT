@@ -2,8 +2,7 @@
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     import CardSlider from "./CardSlider.svelte";
     import {router} from "tinro";
-    import VideoCard from '../VideoCard.svelte';
-    import RESTClient from '../../Utils/RESTClient';
+    import RESTClient from '../../Components/Utils/RESTClient';
     import { onMount } from "svelte";
 
     export let tournamentType = "upcoming"; // Type of tournament

@@ -3,7 +3,7 @@
   import ActiveTournamentInfo from "./components/TournamentTemplate/Pages/ActiveTournaments/ActiveTournamentInfo.svelte";
   import PastTournamentInfo from './components/TournamentTemplate/Pages/PastTournaments/PastTournamentInfo.svelte';
   import UpcomingTournaments from './components/TournamentTemplate/Pages/UpcomingTournaments/UpcomingTournaments.svelte';
-  import MainLayout from './components/Layout/MainLayout.svelte';
+  import MainLayout from './components/TournamentTemplate/Components/Layouts/MainLayout.svelte'
 </script>
 
 <Route path="/PastTournaments/*">

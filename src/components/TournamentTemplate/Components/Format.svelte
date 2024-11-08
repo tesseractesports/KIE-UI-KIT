@@ -1,5 +1,5 @@
 <script>
-    import Section from "../components/Section.svelte";
+    import Section from "../Components/Section.svelte";
     import { writable } from 'svelte/store';
   
     // Initialize a store to keep track of the index of the currently open item

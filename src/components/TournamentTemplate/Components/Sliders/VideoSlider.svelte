@@ -1,7 +1,6 @@
 <script>
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     import CardSlider from "./CardSlider.svelte";
-    import VideoCard from '../VideoCard.svelte';
 
     const tournaments = [
         { name: "Spring Invitational", isInviteOnly: true, thumbnail: "../images/VideoThumb.png" },

@@ -1,6 +1,6 @@
 <script>
   import { Route, router, active } from "tinro";
-    import AuthService from "../Services/AuthService";
+    import AuthService from "./../Components/Services/AuthService";
     
     let meta = router.meta();
     $: currentRoute = meta.url;

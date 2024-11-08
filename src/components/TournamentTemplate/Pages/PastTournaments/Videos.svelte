@@ -1,7 +1,7 @@
 <script>
-  import Section from "../../components/Section.svelte";
-  import HighlightsSlider from "../Sliders/HighlightsSlider.svelte";
-  import VideoSlider from "../Sliders/VideoSlider.svelte";
+  import Section from "../../Components/Section.svelte";
+  import HighlightsSlider from "../../Components/Sliders/HighlightsSlider.svelte";
+  import VideoSlider from "../../Components/Sliders/VideoSlider.svelte";
 </script>
 
 <Section >

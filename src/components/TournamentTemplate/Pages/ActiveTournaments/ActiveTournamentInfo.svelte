@@ -7,7 +7,7 @@
   import OverView from "../ActiveTournaments/OverView.svelte";
   import LeaderBoard from "../ActiveTournaments/LeaderBorad.svelte";
   import Videos from "../ActiveTournaments/Videos.svelte";
-  import Support from "../ActiveTournaments/Videos.svelte";
+  import Support from "../ActiveTournaments/Support.svelte";
 
   let meta = router.meta();
   $: currentRoute = $meta.url;

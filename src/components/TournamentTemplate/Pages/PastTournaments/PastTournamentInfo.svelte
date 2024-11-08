@@ -4,8 +4,8 @@
     import NavTab from "../../components/NavTabs/NavTab.svelte";
     import TabLink from "../../components/NavTabs/TabLink.svelte";
     import Section from "../../components/Section.svelte";
-    import OverView from "../PastTournaments/OverView.svelte";
-    import LeaderBoard from "../PastTournaments/LeaderBoard.svelte";
+    import Summary from "./Summary.svelte";
+    import TeamBoard from "./TeamBoard.svelte";
     import Videos from "../PastTournaments/Videos.svelte";
     import BannerSection from "../../Components/Sliders/BannerSection.svelte";
   
@@ -18,7 +18,7 @@
       { text: 'BMPS 2024', href: '/bmps2024' },
     ];
   </script>
-  
+
   <Breadcrumb items={breadcrumbs} />
   
   <Section>
@@ -37,11 +37,11 @@
   
     <Route path="/" redirect="/PastTournaments/overview" />
     <Route path="/overview">
-       <OverView/>
+       <Summary />
     </Route>
     <div class="bg-Charcoal/800">
       <Route path="/leaderboard">
-        <LeaderBoard />
+      <TeamBoard />
        </Route>
     </div>
   
