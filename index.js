@@ -1,16 +1,10 @@
 
 export { default as Test } from './src/components/test.svelte';
 export { default as Test1 } from './src/components/test1.svelte';
-export {default as ActiveTournamentInfo} from './src/components/TournamentTemplate/Pages/ActiveTournaments/ActiveTournamentInfo.svelte';
-export {default as PastTournamentInfo} from './src/components/TournamentTemplate/Pages/PastTournaments/PastTournamentInfo.svelte';
-export {default as UpcomingTournamentInfo} from './src/components/TournamentTemplate/Pages/UpcomingTournaments/UpcomingTournaments.svelte';
 export {default as Leaderboard} from './src/components/TournamentTemplate/Pages/ActiveTournaments/LeaderBorad.svelte';
 export {default as OverView} from './src/components/TournamentTemplate/Pages/ActiveTournaments/OverView.svelte';
 export {default as Support} from './src/components/TournamentTemplate/Pages/ActiveTournaments/Support.svelte';
 export {default as Videos} from './src/components/TournamentTemplate/Pages/ActiveTournaments/Videos.svelte';
-export {default as TeamBoard} from './src/components/TournamentTemplate/Pages/PastTournaments/LeaderBoard.svelte';
-export {default as Summary} from './src/components/TournamentTemplate/Pages/PastTournaments/OverView.svelte';
-// export {default as UpcomingTournamentInfo} from './src/components/TournamentTemplate/Pages/UpcomingTournaments/UpcomingTournamentInfo.svelte';
 export {default as Section} from './src/components/TournamentTemplate/Components/Section.svelte';
 export {default as Header} from './src/components/TournamentTemplate/Components/Header.svelte';
 export {default as Footer} from './src/components/TournamentTemplate/Components/Footer.svelte';
@@ -29,4 +23,3 @@ export {default as FeaturedTournaments} from './src/components/TournamentTemplat
 export {default as HightlightsSlider} from './src/components/TournamentTemplate/Components/Sliders/HighlightsSlider.svelte';
 export {default as MediaSlider} from './src/components/TournamentTemplate/Components/Sliders/MediaSlider.svelte';
 export {default as PastTournaments} from './src/components/TournamentTemplate/Components/Sliders/PastTournaments.svelte';
-export {default as VideoSlider}  from './src/components/TournamentTemplate/Components/Sliders/VideoSlider.svelte'
