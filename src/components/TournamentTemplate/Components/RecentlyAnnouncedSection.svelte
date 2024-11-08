@@ -1,16 +1,5 @@
 <script>
-  import RESTClient from "../Utils/RESTClient";
-
-  const playerRest = new RESTClient('player');
-
-  function registerInTournament() {
-    playerRest
-      .post('/registerInTournament', {
-        tournamentId: "671b385442a20d4dec0ea558"
-      })
-      .then((response) => {
-      })
-  }
+ 
 </script>
 <div class="">
   <div class="self-stretch font-semibold uppercase leading-6 tracking-wider text-yellow-400" >
@@ -40,7 +29,7 @@
         </a>
         <button
           class="rounded-md bg-yellow-400 px-3 py-2 text-center text-neutral-900 drop-shadow-lg"
-          on:click={registerInTournament}
+          
         >
           Register now
         </button >
